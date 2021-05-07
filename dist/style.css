@@ -1,0 +1,40 @@
+#header-img{
+  display:flex;
+}
+#nav-bar{
+  text-align:right;
+}
+h3{
+  text-align:center;
+}
+#form{
+  text-align:center;
+}
+iframe{
+  display: block;
+  margin: 10px auto;
+  width: 500px;
+  height: 300px;
+}
+#submit{
+  margin-top: 10px;
+}
+#options{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+}
+#option1,#option2,#option3{
+  border-color:black;
+  border-width:2px;
+  border-style:solid;
+  margin: 0 10px;
+  padding: 5px 5px;
+  text-align:center;
+}
+
+@media(min-height: 350px){
+  #comfy-pillow{
+    font-size:24px;
+  }
+}
